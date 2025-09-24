@@ -1,0 +1,129 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #4a5568;
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
+
+p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+}
+
+.chat-container {
+    border: 2px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f8fafc;
+}
+
+#chat-messages {
+    height: 300px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: white;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+}
+
+.message {
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-radius: 20px;
+    max-width: 80%;
+}
+
+.user-message {
+    background-color: #4299e1;
+    color: white;
+    margin-left: auto;
+    text-align: right;
+}
+
+.bot-message {
+    background-color: #e2e8f0;
+    color: #2d3748;
+    margin-right: auto;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+}
+
+#user-input {
+    flex: 1;
+    padding: 12px 15px;
+    border: 2px solid #e2e8f0;
+    border-radius: 25px;
+    font-size: 16px;
+    outline: none;
+}
+
+#user-input:focus {
+    border-color: #4299e1;
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #4299e1;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #3182ce;
+    transform: translateY(-2px);
+}
+
+.example-questions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.example-questions h3 {
+    color: #4a5568;
+    margin-bottom: 15px;
+}
+
+.example-btn {
+    margin: 5px;
+    padding: 8px 15px;
+    background-color: #48bb78;
+    font-size: 14px;
+}
+
+.example-btn:hover {
+    background-color: #38a169;
+}
+
+.loading {
+    color: #666;
+    font-style: italic;
+}
